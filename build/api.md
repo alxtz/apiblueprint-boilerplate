@@ -1,3 +1,4 @@
+# FX2
 # Group MIDIControl
 
 ## 取得所有 KNOB 的 MIDI 設定 [GET /QueryFxAssignments]

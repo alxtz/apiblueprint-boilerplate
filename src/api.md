@@ -1,5 +1,2 @@
-# API Blueprint boilerplate
-
-# Import another blueprint
-Powered by hercule.
+# FX2
 :[anotherbp](src/anotherbp.md)
