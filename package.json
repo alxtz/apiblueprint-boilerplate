@@ -13,6 +13,7 @@
     "drakov": "^1.0.1"
   },
   "dependencies": {
+    "aglio-theme-olio": "^1.6.3",
     "browser-sync": "^2.17.5",
     "drakov": "^1.0.1",
     "gulp": "^3.9.1",

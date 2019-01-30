@@ -33,7 +33,12 @@ gulp.task('hercule', function (cb) {
 gulp.task('docs', ['hercule'], function (cb) {
   gulp.src(targetfile)
   .pipe(plumber())
-  .pipe(aglio({ template: 'default' }))
+  .pipe(aglio({
+    template: 'olio',
+    themeTemplate: 'triple',
+    // themeVariables: 'flatly'
+    themeVariables: './overwrite.less'
+  }))
   .pipe(gulp.dest('./docs/'))
   .on('end', cb)
 })

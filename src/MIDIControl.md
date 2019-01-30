@@ -1,4 +1,3 @@
-# FX2
 # Group MIDIControl
 
 ## QueryFxAssignments [GET /]
