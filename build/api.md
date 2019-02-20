@@ -85,3 +85,19 @@ LivePresets.GetPresetsList(display_order)
     }
   ]
 }
+
+## GetBanksList [GET /]
+```
+LivePresets.GetBanksList()
+```
++ Response 200
+{
+  "LiveBanks": [
+    {
+      "bank_folder": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA",
+      "bank_name": "Standard Low Gain",
+      "display_order": 0,
+      "is_factory": true
+    }
+  ]
+}

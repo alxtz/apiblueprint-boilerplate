@@ -36,7 +36,7 @@ gulp.task('docs', ['hercule'], function (cb) {
   .pipe(aglio({
     template: 'olio',
     themeTemplate: 'triple',
-    // themeVariables: 'flatly'
+    // themeVariables: 'streak',
     themeVariables: './overwrite.less'
   }))
   .pipe(gulp.dest('./docs/'))
@@ -61,7 +61,7 @@ gulp.task('docserver', ['docs'], function () {
 gulp.task('drakov', ['hercule'], function () {
   const argv = {
     sourceFiles: './build/api.md',
-    serverPort: 7000,
+    serverPort: 1984,
     header: 'Authorization',
     autoOptions: true,
     method: 'PUT, DELETE, PATCH'
